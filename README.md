@@ -1,2 +1,3 @@
 # React-Portfolio
-Created with CodeSandbox
+
+A simple portfolio layout created with React!
