@@ -1,7 +1,7 @@
 import React from "react";
 import {
   VerticalTimeline,
-  VerticalTimelineElement,
+  VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
@@ -13,23 +13,24 @@ function Experience() {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2010 - 2014"
+          date="2015 - 2016"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            My Random High School, Random Place, Random State
+            Central Academy, Lucknow, Uttar Pradesh, India
           </h3>
           <p> High School Diploma</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2014 - 2018"
+          date="2019 - 2023"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            My Cool University, Vancouver, British Columbia
+            United College of Engineering and Management, Prayagraj, Uttar
+            Pradesh, India
           </h3>
 
           <h4 className="vertical-timeline-element-subtitle">
@@ -40,35 +41,28 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2018 - 2020"
+          date="2023 - Present"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Back End Engineer - Google
+            RPA Developer Intern- ICICI
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>Developed the backend infrastructure for 3 projects.</p>
+          <h4 className="vertical-timeline-element-subtitle">Mumbai, India</h4>
+          <p>Developed the RPA bots for 3 projects.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2020 - present"
+          date="2023 - Present"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Full Stack Engineer - Twitch
+            Associate Engineer Trainee - Nagarro
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>
-            Helped the team launch 2 major features by working both in the front
-            end and back end.
-          </p>
+          <h4 className="vertical-timeline-element-subtitle">Lucknow, India</h4>
+          <p>Learning new technologies every single day.</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
